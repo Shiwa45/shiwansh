@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(back.jpg);
+}
+
+.calculator{
+    background-color: rgb(160, 122, 76);
+    padding: 15px;
+    box-shadow: 0 0 15px #b12222;
+    border: 2px solid rgb(116, 114, 114);
+    border-radius: 15px;
+}
+
+.display input{
+    width: 360px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    background-image: url(calculator-pencils-background_188544-6127.avif);
+    border-radius: 17%;
+}
+
+input::placeholder,h1{
+    color: #fff;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: -5px -6px 15px #000;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+}
+
+button:hover{
+    background: #000;
+    transform: translate(2px, 2px);
+}
+
+button:active{
+    transform: translate(-2px,-2px);
+}
+
+.oprbutt{
+    color: #df350a;
+    background: #191e1e;
+    font-weight: 700;
+}
+
+.equalButt{
+    background: rgb(5, 168, 78);
+    font-weight: 900;
+}
